@@ -1,4 +1,4 @@
-def vonat_hossza(a,b):
-  return a/b
-
-print(f"1.: {vonat_hossza(1500, 15)}")
+x = 0
+while (300+x)/20 != x/5:
+  x += 1
+print("1.:", x)
