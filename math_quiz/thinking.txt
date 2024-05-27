@@ -1,1 +1,6 @@
-(300 + x)/20 = x/5  ->  1500 = 15x  -> 1500/15 = x
+1.: Tudjuk, hogy az alagút 300m hosszú és a vonat ezt az utat 20s alatt teszi meg, onnantól, hogy az eleje eléri az alagút elejét, addig, amíg a vége el nem hagyja, és hogy egy lámpa az alagútban pont 5 másodpercen át van a vonat felett. Tehát felírható egy olyan egyenlet, hogy:
+(300+x)/20 != x/5 -> mivel a vonat állandó sebességgel halad.
+
+9.: Jelöljük a találkozón résztvevő angolok számát "a"-val, a magyarok számát "m"-mel, ekkor felírható, hogy:
+a*(a+m-1) = 198 és m*(a+m-1) = 308
+mivel (a+m−1) osztja a 198-at és a 308-at, ezért az lesz a legnagyobb közös osztójuk, amit 198-cal elosztva megkapjuk, hogy hány angol vett részt a találkozón.
