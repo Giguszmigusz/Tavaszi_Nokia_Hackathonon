@@ -4,3 +4,6 @@
 9.: Jelöljük a találkozón résztvevő angolok számát "a"-val, a magyarok számát "m"-mel, ekkor felírható, hogy:
 a*(a+m-1) = 198 és m*(a+m-1) = 308
 mivel (a+m−1) osztja a 198-at és a 308-at, ezért az lesz a legnagyobb közös osztójuk, amit 198-cal elosztva megkapjuk, hogy hány angol vett részt a találkozón.
+
+7.: Legalább 21 golyót kell kihúzni, hogy biztosan legyen piros golyónk, ezért 20 kék és zöld golyónk van, tehát:
+30-20=10 a piros golyók száma.
