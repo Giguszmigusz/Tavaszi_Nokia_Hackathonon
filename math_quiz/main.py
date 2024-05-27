@@ -36,3 +36,10 @@ for i in range(len(lnko)):
     oszto *= lnko[i]
 
 print(f"9.: {round(198/oszto)}")
+
+#7.
+ossz = 30
+legalabb = 21
+piros = 1
+maradek = legalabb-piros
+print(f"7.: {ossz-maradek}")
