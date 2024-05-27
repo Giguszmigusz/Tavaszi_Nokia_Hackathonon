@@ -5,31 +5,31 @@ while (300+x)/20 != x/5:
 print("1.:", x)
 
 #9.
-x = 198
-prim_x = []
-y = 308
-prim_y = []
+a = 198
+prim_a = []
+m = 308
+prim_m = []
 lnko = []
 
-oszto_x = 2
-while x > 1:
-    if x % oszto_x == 0:
-        prim_x.append(oszto_x)
-        x = x // oszto_x
+oszto_a = 2
+while a > 1:
+    if a % oszto_a == 0:
+        prim_a.append(oszto_a)
+        a = a // oszto_a
     else:
-        oszto_x = oszto_x + 1
+        oszto_a = oszto_a + 1
 
-oszto_y = 2
-while y > 1:
-    if y % oszto_y == 0:
-        prim_y.append(oszto_y)
-        y = y // oszto_y
+oszto_m = 2
+while m > 1:
+    if m % oszto_m == 0:
+        prim_m.append(oszto_m)
+        m = m // oszto_m
     else:
-        oszto_y = oszto_y + 1
+        oszto_m = oszto_m + 1
 
-for i in range(len(prim_x)):
-    if prim_x[i] in prim_y:
-        lnko.append(prim_x[i])
+for i in range(len(prim_a)):
+    if prim_a[i] in prim_m:
+        lnko.append(prim_a[i])
 
 oszto = 1
 for i in range(len(lnko)):
