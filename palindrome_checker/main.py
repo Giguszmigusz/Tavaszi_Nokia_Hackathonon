@@ -35,5 +35,5 @@ for i in range(len(egyezesek)):
   else:
     palindrom_e.append("NO")
 
-for i in range(len(darabok)):
+for i in range(len(darabok)-1):
   print(f"{palindrom_e[i]}, {egyedik[i]}")
