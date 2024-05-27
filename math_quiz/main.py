@@ -43,3 +43,9 @@ legalabb = 21
 piros = 1
 maradek = legalabb-piros
 print(f"7.: {ossz-maradek}")
+
+# 3.
+x = 0
+while (x/10) + ((20-x)/4) != (x/5) + ((20-x)/12):
+    x += 0.5
+print("3.:", x)
